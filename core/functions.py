@@ -32,7 +32,7 @@ def humanbytes(n):
 
     pow = 2**10
     p = 0
-    unit = {0: " ", 1 : "KB", 2 : "MB", 3: "GB"}
+    unit = {0: " ", 1 : "KB", 2 : "MB", 3: "GB", 4: "TB"}
     while n > pow:
         n /= pow
         p += 1
