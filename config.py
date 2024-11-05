@@ -16,4 +16,4 @@ class Config(object):
     CHANNEL = os.environ.get("CHANNEL", "-1001678094109") #BOT Support Channel
 
     BANNED_USERS = os.environ.get("BANNED_USERS", []) #Banned Users
-    ADMIN = int(os.environ.get("ADMINS", "5398056049 1905251964")) #BOT ADMIN
+    ADMIN = int(os.environ.get("ADMINS", "5398056049")) #BOT ADMIN
